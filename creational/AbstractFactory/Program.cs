@@ -9,6 +9,11 @@ Console.WriteLine();
 
 Console.WriteLine("Client: Testing the same client code with the second factory type...");
 ClientMethod(new ConcreteFactory2());
+Console.WriteLine();
+
+Console.WriteLine("Client: Testing the same client code with the third factory type...");
+ClientMethod(new ConcreteFactory2());
+Console.WriteLine();
 
 
 void ClientMethod(IAbstractFactory factory)
