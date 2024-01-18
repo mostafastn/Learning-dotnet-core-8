@@ -1,5 +1,5 @@
 ﻿using FactoryMethod.Creator;
-using FactoryMethod.InterFace;
+using FactoryMethod.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;

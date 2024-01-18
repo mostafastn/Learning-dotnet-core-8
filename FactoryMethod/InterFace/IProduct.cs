@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod.InterFace
+namespace FactoryMethod.Interface
 {
     public interface IProduct
     {
