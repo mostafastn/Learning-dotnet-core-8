@@ -15,9 +15,11 @@ void ClientMethod(IAbstractFactory factory)
 {
     var productA = factory.CreateProductA();
     var productB = factory.CreateProductB();
+    var productC = factory.CreateProductC();
 
     Console.WriteLine(productB.UsefulFunctionB());
     Console.WriteLine(productB.AnotherUsefulFunctionB(productA));
+    Console.WriteLine(productC.UsefulFunctionC());
 }
 
 

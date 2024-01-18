@@ -15,5 +15,10 @@ namespace AbstractFactory.Creator.ConcreteFactory
         {
             return new ConcreteProductB1();
         }
+
+        public IAbstractProductC CreateProductC()
+        {
+            return new ConcreteProductC2();
+        }
     }
 }

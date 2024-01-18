@@ -7,5 +7,7 @@ namespace AbstractFactory.Interface
         IAbstractProductA CreateProductA();
 
         IAbstractProductB CreateProductB();
+
+        IAbstractProductC CreateProductC();
     }
 }
