@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AbstractFactory.Creator.ConcreteFactory;
-using AbstractFactory.Interface;
+using AbstractFactory.Interface.Factory;
 
 // The client code can work with any concrete factory class.
 Console.WriteLine("Client: Testing client code with the first factory type...");

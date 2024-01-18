@@ -1,5 +1,5 @@
 ﻿using AbstractFactory.Creator.ConcreteProduct;
-using AbstractFactory.Interface;
+using AbstractFactory.Interface.Factory;
 using AbstractFactory.Interface.Product;
 
 namespace AbstractFactory.Creator.ConcreteFactory

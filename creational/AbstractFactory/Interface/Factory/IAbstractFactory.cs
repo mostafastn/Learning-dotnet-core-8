@@ -1,6 +1,6 @@
 ﻿using AbstractFactory.Interface.Product;
 
-namespace AbstractFactory.Interface
+namespace AbstractFactory.Interface.Factory
 {
     internal interface IAbstractFactory
     {
