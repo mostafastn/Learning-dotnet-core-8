@@ -3,7 +3,9 @@ using Builder.Creator;
 using Builder.Interface;
 
 var builder = new ConcreteBuilder();
-var director = new Director(builder);
+var builderFluent = new ConcreteBuilderFluent();
+
+var director = new Director(builder, builderFluent);
 
 Console.WriteLine("Standard basic product:");
 director.BuildMinimalViableProduct();
@@ -19,3 +21,10 @@ Console.WriteLine("Custom product:");
 builder.BuildPartA();
 builder.BuildPartC();
 Console.Write(builder.GetProduct().ListParts());
+
+
+// the Fluent Builder pattern 
+Console.WriteLine("Fluent Builder product:");
+director.BuildFeaturedProduct();
+Console.Write(builderFluent.GetProduct().ListParts());
+builderFluent.Reset();
